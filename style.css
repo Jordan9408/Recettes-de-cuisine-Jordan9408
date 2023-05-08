@@ -1,0 +1,150 @@
+body {
+	margin: 0;/*padding: 0; et margin: 0; => c'est pour qu'il y est aucune marge */
+	padding: 0;
+	background-color: #CCFFFF
+}
+
+img {
+	width: 160px;
+	height: 160px;
+}
+
+/*menu*/
+nav ul {
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none; /*Enlever les puces*/
+	font-size: 20px;
+}
+
+nav li {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	width: 100px;
+	height: 40px;
+	text-align: center;
+	line-height: 60px;
+	position: relative;
+	
+}
+
+nav li a {
+	display: block;
+	text-decoration: none;
+	color: #1654F9;
+
+}
+
+nav li a:hover {
+	color: brown;
+}
+/*fin du menu*/
+
+h2 {
+	padding: 10px;
+	color: #006600;
+	text-align: center;
+	background-color: #00FF00;
+}
+
+table , th , td {
+	border: 1px solid black;
+}
+th, td {
+	padding: 5px;
+}
+
+/*footer*/
+footer {
+	background: black;
+	border: #000 1px solid;
+	padding: 1em;
+}
+
+footer ul {
+	display: flex;
+	justify-content: space-around;
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+}
+
+footer li {
+	margin: 0;
+	padding: 10px;
+	text-align: center;
+	position: relative;
+}
+
+footer li a {
+	text-decoration: none;
+	color: #FFF;
+}
+
+footer li a:hover {
+	color: brown;
+}
+
+
+/*class*/
+.Recettes{
+	margin: 20px;
+	margin-left: 20px;
+	width: 150px;
+	height: 150px;
+}
+
+.element {
+	display: flex;
+}
+
+.infos {
+	list-style-type: none;
+}
+
+.infos {
+	display: flex;
+	justify-content: space-around;
+	width: 400px;
+	margin: 0;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.Recette {
+	width: 170px;
+	margin: 20px;
+}
+
+.Conteneur {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin:0 1em;
+}
+
+/*id*/
+#contact {
+	display: flex;
+	justify-content: center;
+}
+
+#name, #mail, #msg {
+	width: 22rem;
+}
+
+#submit {
+	background: #fff;
+	color: #1654F9;
+	width: 26.8em;
+	border-radius: 5px;
+	padding: 2px;
+}
+
+#submit:hover {
+	box-shadow: #000 inset 1px 1px 2px,#000 2px 2px 2px;
+	cursor: pointer;
+}
+
+
